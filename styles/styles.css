@@ -7,7 +7,7 @@
 }
 
 body {
-    height: 100vh;
+    
     box-sizing: border-box;
     background-color: black;
     color: #f6f6f6;
@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-    margin: 10% 15%;
+    padding: 11% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -60,6 +60,9 @@ body {
 #linkedin-button,
 #github-button {
 
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     color: #f6f6f6;
     width: 378px;
     text-align: center;
@@ -71,21 +74,34 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 
+
 }
 
 #linkedin-button:hover {
+    background-color: #272727;
     transform: scale(1.1);
     transition: .4s;
     cursor: pointer;
 }
 
 #github-button:hover {
+    background-color: #272727;
     transform: scale(1.1);
     transition: .4s;
     cursor: pointer;
 }
 
 #imagem-lucas:hover {
-    transform: scale(1.2);
+    transform: scale(1.05);
     transition: .4s;
+}
+
+.dev-by{
+    padding:36px;
+    color: black;
+    background-color: #22D4FD;
+    text-align: center;
+    font-family: "Montserrat" sans-serif;
+    font-size: 24px;
+    font-weight: 400;
 }
