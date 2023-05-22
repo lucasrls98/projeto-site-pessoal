@@ -52,10 +52,11 @@ header > nav{
 }
 
 .container {
-    padding: 11% 15%;
+    padding: 8% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 
@@ -65,6 +66,7 @@ header > nav{
     flex-direction: column;
     gap: 40px;
     margin-right: 5%;
+    
 
 }
 
@@ -79,6 +81,22 @@ header > nav{
     font-size: 24px;
     font-family: var(--second-font);
     
+}
+
+.hobbies-list{
+    font-size: 22px;
+    font-family: var(--second-font);
+
+    
+}
+
+
+#imagem-jhin{
+    width: 60%;
+}
+#imagem-jhin:hover{
+    transform: scale(1.1);
+    transition: .4s;
 }
 
 
@@ -123,6 +141,32 @@ header > nav{
     transform: scale(1.1);
     transition: .4s;
     cursor: pointer;
+}
+
+.download-button{
+
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    color: var(--second-color);
+    width: 378px;
+    text-align: center;
+    border: 2px solid var(--third-color);
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 24.5px 0;
+    text-decoration: none;
+    font-family: var(--second-font);
+    font-weight: 600;
+
+
+}
+ul li {
+    padding-bottom: 10px;
+}
+.download-button:hover{
+    transform: scale(1.05);
+    transition: 0.4s;
 }
 
 #github-button:hover {
