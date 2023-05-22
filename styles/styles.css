@@ -13,6 +13,25 @@ body {
     color: #f6f6f6;
 }
 
+.menu-links{
+    font-family: "Montserrat", sans-serif ;
+    font-size: 24px;
+    font-weight: 600;
+    color: #22D4FD;
+    text-decoration: none;
+    
+}
+
+header{
+    padding: 2% 0% 0% 15%;
+}
+
+header > nav{
+    display: flex;
+    gap: 80px;
+}
+
+
 .destaque-titulo {
     color: #22D4FD;
 }
