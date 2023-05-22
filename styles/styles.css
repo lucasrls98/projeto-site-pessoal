@@ -223,19 +223,17 @@ input {
     transition: .27s;
 }
 
-#mensagem {
-    padding: 50px;
-}
-
 textarea {
-    resize: vertical;
-    /* ou resize: none; para impedir o redimensionamento */
-    padding: 10px;
-    /* ajuste o valor conforme necessário */
-    box-sizing: border-box;
-    /* inclua isso para evitar problemas de tamanho do elemento */
+    resize: vertical;     
+    box-sizing: border-box;    
 }
 
+
+#mensagem {
+    height: 80px;
+    padding: 10px;
+    font-size: 17px;
+}
 .dev-by {
     padding: 36px;
     color: var(--main-color);
