@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
 
-:root{
+:root {
     --main-color: #000000;
-    --second-color:#f6f6f6;
-    --third-color:#22d4fd;
-    --hover-color:#272727;
+    --second-color: #f6f6f6;
+    --third-color: #22d4fd;
+    --hover-color: #272727;
     --main-font: 'Krona One', sans-serif;
     --second-font: "Montserrat", sans-serif;
 }
@@ -16,39 +16,39 @@
 }
 
 body {
-    
+
     box-sizing: border-box;
     background-color: var(--main-color);
     color: var(--second-color)
 }
 
-.menu-links{
+.menu-links {
     font-family: var(--second-font);
     font-size: 24px;
     font-weight: 600;
     color: var(--third-color);
     text-decoration: none;
-    
+
 }
 
-.menu-links:hover{
+.menu-links:hover {
     transform: scale(1.1);
     transition: 0.4s;
     color: var(--second-color);
 }
 
-header{
+header {
     padding: 2% 0% 0% 15%;
 }
 
-header > nav{
+header>nav {
     display: flex;
     gap: 80px;
 }
 
 
 .destaque-titulo {
-    color:var(--third-color);
+    color: var(--third-color);
 }
 
 .container {
@@ -56,7 +56,7 @@ header > nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
 }
 
 
@@ -66,7 +66,7 @@ header > nav{
     flex-direction: column;
     gap: 40px;
     margin-right: 5%;
-    
+
 
 }
 
@@ -74,27 +74,28 @@ header > nav{
     font-size: 35px;
     font-family: var(--main-font);
 
-    
+
 }
 
 .container-content-paragraph {
     font-size: 24px;
     font-family: var(--second-font);
-    
+
 }
 
-.hobbies-list{
+.hobbies-list {
     font-size: 22px;
     font-family: var(--second-font);
 
-    
+
 }
 
 
-#imagem-jhin{
+#imagem-jhin {
     width: 60%;
 }
-#imagem-jhin:hover{
+
+#imagem-jhin:hover {
     transform: scale(1.1);
     transition: .4s;
 }
@@ -143,7 +144,7 @@ header > nav{
     cursor: pointer;
 }
 
-.download-button{
+.download-button {
 
     display: flex;
     justify-content: center;
@@ -161,10 +162,12 @@ header > nav{
 
 
 }
+
 ul li {
     padding-bottom: 10px;
 }
-.download-button:hover{
+
+.download-button:hover {
     transform: scale(1.05);
     transition: 0.4s;
 }
@@ -176,21 +179,31 @@ ul li {
     cursor: pointer;
 }
 
+#imagem-lucas{
+    width: 50%;
+    margin-top: 10px;
+}
+
+
+
 #imagem-lucas:hover {
     transform: scale(1.05);
     transition: .4s;
 }
 
-.form{
+.form {
     display: flex;
     flex-direction: column;
     gap: 10px;
     font-family: var(--main-font);
 }
-input{
+
+input {
     padding: 8px;
 }
-#submit, #cancel{
+
+#submit,
+#cancel {
     padding: 5px;
     margin-top: 10px;
     font-family: var(--main-font);
@@ -199,31 +212,92 @@ input{
     background-color: var(--third-color);
     margin-right: 100px;
     border-radius: 16px;
-    
+
 }
 
-#submit:hover, #cancel:hover{
+#submit:hover,
+#cancel:hover {
     background-color: var(--hover-color);
     color: var(--second-color);
     transform: scale(1.1);
     transition: .27s;
 }
 
-#mensagem{
+#mensagem {
     padding: 50px;
 }
+
 textarea {
-    resize: vertical; /* ou resize: none; para impedir o redimensionamento */
-    padding: 10px; /* ajuste o valor conforme necessário */
-    box-sizing: border-box; /* inclua isso para evitar problemas de tamanho do elemento */
+    resize: vertical;
+    /* ou resize: none; para impedir o redimensionamento */
+    padding: 10px;
+    /* ajuste o valor conforme necessário */
+    box-sizing: border-box;
+    /* inclua isso para evitar problemas de tamanho do elemento */
 }
 
-.dev-by{
-    padding:36px;
+.dev-by {
+    padding: 36px;
     color: var(--main-color);
     background-color: var(--third-color);
     text-align: center;
     font-family: var(--second-font);
     font-size: 24px;
     font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        padding: 0 20px;
+    }
+
+    header {
+        padding: 2% 0% 0% 10%;
+    }
+
+    .menu{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        padding: 8% 5%;
+    }
+
+    .container-content {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    #imagem-jhin {
+        width: 80%;
+    }
+
+    #imagem-contato{
+        width: 50%;
+        margin-top: 20px;
+    }
+
+    .content-links {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #linkedin-button,
+    #github-button {
+        width: 100%;
+    }
+
+    .download-button {
+        width: 100%;
+    }
+
+    .dev-by{
+        padding: 15px;       
+        
+    }
+    
+    
 }
