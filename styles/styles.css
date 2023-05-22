@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
 
+:root{
+    --main-color: #000000;
+    --second-color:#f6f6f6;
+    --third-color:#22d4fd;
+    --hover-color:#272727;
+    --main-font: 'Krona One', sans-serif;
+    --second-font: "Montserrat", sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -9,15 +18,15 @@
 body {
     
     box-sizing: border-box;
-    background-color: black;
-    color: #f6f6f6;
+    background-color: var(--main-color);
+    color: var(--second-color)
 }
 
 .menu-links{
-    font-family: "Montserrat", sans-serif ;
+    font-family: var(--second-font);
     font-size: 24px;
     font-weight: 600;
-    color: #22D4FD;
+    color: var(--third-color);
     text-decoration: none;
     
 }
@@ -33,7 +42,7 @@ header > nav{
 
 
 .destaque-titulo {
-    color: #22D4FD;
+    color:var(--third-color);
 }
 
 .container {
@@ -43,24 +52,31 @@ header > nav{
     justify-content: space-between;
 }
 
+
 .container-content {
     width: 750px;
     display: flex;
     flex-direction: column;
     gap: 40px;
+    margin-right: 5%;
 
 }
 
 .container-content-title {
     font-size: 35px;
-    font-family: 'Krona One', sans-serif;
-    ;
+    font-family: var(--main-font);
+
+    
 }
 
 .container-content-paragraph {
     font-size: 24px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--second-font);
+    
 }
+
+
+
 
 .content-links {
     display: flex;
@@ -71,7 +87,7 @@ header > nav{
 }
 
 .subtitle-links {
-    font-family: "Krona One", sans-serif;
+    font-family: var(--main-font);
     font-weight: 400;
     font-size: 24px;
 }
@@ -82,29 +98,29 @@ header > nav{
     display: flex;
     justify-content: center;
     gap: 16px;
-    color: #f6f6f6;
+    color: var(--second-color);
     width: 378px;
     text-align: center;
-    border: 2px solid #22D4FD;
+    border: 2px solid var(--third-color);
     border-radius: 16px;
     font-size: 24px;
     padding: 24.5px 0;
     text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--second-font);
     font-weight: 600;
 
 
 }
 
 #linkedin-button:hover {
-    background-color: #272727;
+    background-color: var(--hover-color);
     transform: scale(1.1);
     transition: .4s;
     cursor: pointer;
 }
 
 #github-button:hover {
-    background-color: #272727;
+    background-color: var(--hover-color);
     transform: scale(1.1);
     transition: .4s;
     cursor: pointer;
@@ -117,10 +133,10 @@ header > nav{
 
 .dev-by{
     padding:36px;
-    color: black;
-    background-color: #22D4FD;
+    color: var(--main-color);
+    background-color: var(--third-color);
     text-align: center;
-    font-family: "Montserrat" sans-serif;
+    font-family: var(--second-font);
     font-size: 24px;
     font-weight: 400;
 }
