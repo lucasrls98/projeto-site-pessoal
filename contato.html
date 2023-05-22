@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./images/haticon.ico">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Sobre Mim</title>
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <a class="menu-links" href="index.html">Home</a>
+            <a class="menu-links" href="about.html">Sobre Mim</a>
+            <a class="menu-links" href="hobbies.html">Hobbies</a>
+            <a class="menu-links" href="contato.html">Contato</a>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="container-content">
+            <h1 class="container-content-title">Contato</h1>
+            <p class="container-content-paragraph">Quer entrar em contato comigo?
+            </p>
+            <p class="container-content-paragraph">Me mande uma mensagem! </p>
+            
+            <form class="form" action="enviar-mensagem.php" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                <div class="buttons">
+                    <button id="submit" type="submit">Enviar</button>
+                    <button id="cancel" type="button" class="cancelar">Cancelar</button>
+                </div>
+
+            </form>
+
+
+
+        </section>
+        
+        <img id="imagem-contato" src="images/contact.png" alt="imagem de lucas rolando">
+
+    </main>
+    <footer class="dev-by">
+        <p>Lucas Portfolio Site © 2023 - Lucas Rolando</p>
+    </footer>
+
+</body>
+
+</html>

@@ -181,6 +181,43 @@ ul li {
     transition: .4s;
 }
 
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: var(--main-font);
+}
+input{
+    padding: 8px;
+}
+#submit, #cancel{
+    padding: 5px;
+    margin-top: 10px;
+    font-family: var(--main-font);
+    font-size: 22px;
+    width: 150px;
+    background-color: var(--third-color);
+    margin-right: 100px;
+    border-radius: 16px;
+    
+}
+
+#submit:hover, #cancel:hover{
+    background-color: var(--hover-color);
+    color: var(--second-color);
+    transform: scale(1.1);
+    transition: .27s;
+}
+
+#mensagem{
+    padding: 50px;
+}
+textarea {
+    resize: vertical; /* ou resize: none; para impedir o redimensionamento */
+    padding: 10px; /* ajuste o valor conforme necessário */
+    box-sizing: border-box; /* inclua isso para evitar problemas de tamanho do elemento */
+}
+
 .dev-by{
     padding:36px;
     color: var(--main-color);
