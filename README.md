@@ -26,6 +26,14 @@ Este é o repositório do meu projeto de site pessoal, desenvolvido como parte d
 - **Hobbies**: Aqui, compartilho meus principais hobbies e interesses, mostrando um pouco mais sobre minha personalidade.
 - **Contato**: Incluí um formulário de contato para que os visitantes possam entrar em contato comigo. Porém, vale ressaltar que o formulário atualmente está apenas em modo de simulação, sem a funcionalidade de envio de mensagens.
 
+## Evidência de Entrega
+Neste projeto, cumpri todos os requisitos solicitados, seguindo as seguintes diretrizes:
+
+- Utilizei uma estrutura de pastas separadas para organizar os arquivos CSS e as imagens.
+- **1** Desenvolvi uma página de apresentação individual com quatro seções distintas (foram solicitadas três).
+- **2** Incluí um formulário de contato para simulação.
+- **3** O projeto foi disponibilizado no repositório do GitHub, permitindo fácil acesso e colaboração.
+
 O projeto está disponível em um repositório no **GitHub**, permitindo que seja facilmente acessado, colaborado e utilizado como referência por outros desenvolvedores. Fique à vontade para explorar o código, sugerir melhorias ou entrar em contato para qualquer esclarecimento adicional.
 
 Agradeço a oportunidade proporcionada pela formação **Web FullStack** da **Resilia Educação** e espero que apreciem meu site pessoal.
