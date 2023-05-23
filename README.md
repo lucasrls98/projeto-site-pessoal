@@ -21,10 +21,10 @@ Este é o repositório do meu projeto de site pessoal, desenvolvido como parte d
 - **README.md**: Este arquivo, contendo informações sobre o projeto.
 
 ## Descrição do Projeto
-Home: Nesta seção, descrevo um breve resumo dos meus serviços como Front-End e links para minhas redes sociais.
-Sobre Mim: Coloquei um resumo de quem eu sou e uma síntese profissional, com um link para baixar meu currículo.
-Hobbies e Interesses: Aqui, compartilho meus principais hobbies e interesses, mostrando um pouco mais sobre minha personalidade.
-Formulário de Contato: Incluí um formulário de contato para que os visitantes possam entrar em contato comigo. Porém, vale ressaltar que o formulário atualmente está apenas em modo de simulação, sem a funcionalidade de envio de mensagens.
+- **Home**: Nesta seção, descrevo um breve resumo dos meus serviços como Front-End e links para minhas redes sociais.
+- **Sobre Mim**: Coloquei um resumo de quem eu sou e uma síntese profissional, com um link para baixar meu currículo.
+- **Hobbies**: Aqui, compartilho meus principais hobbies e interesses, mostrando um pouco mais sobre minha personalidade.
+- **Contato**: Incluí um formulário de contato para que os visitantes possam entrar em contato comigo. Porém, vale ressaltar que o formulário atualmente está apenas em modo de simulação, sem a funcionalidade de envio de mensagens.
 
 O projeto está disponível em um repositório no **GitHub**, permitindo que seja facilmente acessado, colaborado e utilizado como referência por outros desenvolvedores. Fique à vontade para explorar o código, sugerir melhorias ou entrar em contato para qualquer esclarecimento adicional.
 
