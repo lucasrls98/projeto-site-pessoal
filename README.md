@@ -1,4 +1,4 @@
-# Meu Site Pessoal
+# Meu Site Pessoal 🧑🏻💻
 
 Este é o repositório do meu projeto de site pessoal, desenvolvido como parte da formação **Web Full Stack** da **Resilia Educação**. O objetivo do projeto era criar um site para apresentar informações sobre mim, atendendo aos seguintes requisitos:
 
