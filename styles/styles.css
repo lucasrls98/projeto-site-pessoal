@@ -24,7 +24,7 @@ body {
 
 .menu-links {
     font-family: var(--second-font);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--third-color);
     text-decoration: none;
@@ -72,20 +72,19 @@ header>nav {
 }
 
 .container-content-title {
-    font-size: 35px;
+    font-size: 2.25rem;
     font-family: var(--main-font);
-
-
 }
 
+
 .container-content-paragraph {
-    font-size: 24px;
+    font-size: 1.15rem;
     font-family: var(--second-font);
 
 }
 
 .hobbies-list {
-    font-size: 22px;
+    font-size: 1.38rem;
     font-family: var(--second-font);
 
 
@@ -115,7 +114,7 @@ header>nav {
 .subtitle-links {
     font-family: var(--main-font);
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 #linkedin-button,
@@ -129,7 +128,7 @@ header>nav {
     text-align: center;
     border: 2px solid var(--third-color);
     border-radius: 16px;
-    font-size: 24px;
+    font-size: 1.5rem;
     padding: 24.5px 0;
     text-decoration: none;
     font-family: var(--second-font);
@@ -155,7 +154,7 @@ header>nav {
     text-align: center;
     border: 2px solid var(--third-color);
     border-radius: 16px;
-    font-size: 24px;
+    font-size: 1.5rem;
     padding: 24.5px 0;
     text-decoration: none;
     font-family: var(--second-font);
@@ -208,7 +207,7 @@ input {
     padding: 5px;
     margin-top: 10px;
     font-family: var(--main-font);
-    font-size: 22px;
+    font-size: 1.38rem;
     width: 150px;
     background-color: var(--third-color);
     margin-right: 100px;
@@ -233,7 +232,7 @@ textarea {
 #mensagem {
     height: 80px;
     padding: 10px;
-    font-size: 17px;
+    font-size: 1.06rem;
 }
 .dev-by {
     padding: 36px;
@@ -241,7 +240,7 @@ textarea {
     background-color: var(--third-color);
     text-align: center;
     font-family: var(--second-font);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 
