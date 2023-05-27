@@ -56,12 +56,13 @@ header>nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 82px;
 
 }
 
 
 .container-content {
-    width: 750px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -124,7 +125,7 @@ header>nav {
     justify-content: center;
     gap: 16px;
     color: var(--second-color);
-    width: 378px;
+    width: 70%;
     text-align: center;
     border: 2px solid var(--third-color);
     border-radius: 16px;
@@ -219,6 +220,7 @@ input {
 #cancel:hover {
     background-color: var(--hover-color);
     color: var(--second-color);
+    cursor: pointer;
     transform: scale(1.1);
     transition: .27s;
 }
@@ -244,13 +246,15 @@ textarea {
     font-weight: 400;
 }
 
-@media screen and (max-width: 768px) {
-    body {
-        padding: 0 20px;
+@media screen and (max-width: 1200px) {
+    .container{
+        padding: 10%;
     }
 
     header {
         padding: 2% 0% 0% 10%;
+        display: flex;
+        justify-content: center;        
     }
 
     .menu {
@@ -299,6 +303,7 @@ textarea {
 
     .dev-by {
         padding: 15px;
+        width: 100%;
 
     }
 
